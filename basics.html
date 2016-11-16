@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Boostrap Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">koffee</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="%">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container Margin">
+      <!-- jumbotron -->
+      <div class="jumbotron">
+        <h1>This is a jumbotron</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis justo nulla, ac molestie quam euismod non. Pellentesque quis purus ullamcorper lectus rutrum volutpat vitae nec mauris. Sed tincidunt ornare interdum. Praesent tincidunt velit id massa lacinia, et elementum purus rutrum. Proin tristique semper eros vel vestibulum. Vestibulum eu nibh nibh. Curabitur nunc ante, pharetra vitae mollis sed, consectetur vitae augue. Nullam in ullamcorper dolor. Aliquam non urna orci. Duis lacinia, lectus lacinia ullamcorper lacinia, metus purus molestie dolor, suscipit consectetur elit ex vehicula tortor. Praesent tincidunt dui elit. Nullam eu turpis id lacus facilisis imperdiet.
+        </p>
+        <button class="btn btn-success btn-lg">Hi there</button>
+      </div>
+
+      <!-- button basics -->
+      <h1>Bootstrap Basics</h1>
+      <button class="btn btn-danger btn-xs">Click Me!</button>
+      <button class="btn btn-success btn-xs active">Click Me!</button>
+      <button class="btn btn-success btn-xs" disabled>Click Me!</button>
+      <a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+      <!-- form -->
+      <form class="Margin">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile">
+          <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+      <!-- inline form -->
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Name</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Send invitation</button>
+      </form>
+    </div>
+    <!-- jQuery 3.x -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
